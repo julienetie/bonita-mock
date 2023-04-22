@@ -1,0 +1,15 @@
+{
+    "imports": {
+        "lodash/": "https://unpkg.com/lodash-es@4.17.21/"
+    },
+    "scopes": {
+        "/src/": {
+            "one": "./src/module-a/one.js",
+            "two": "./src/module-a/two.js"
+        }
+    },
+    "places": [
+        "./layouts/index.html",
+        "./layouts/heads/dynamic-heads/animation-head.html"
+    ]
+}
