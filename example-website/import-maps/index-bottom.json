@@ -8,7 +8,7 @@
             "two": "./src/module-a/two.js"
         }
     },
-    "places": [
+    "files": [
         "./layouts/index.html",
         "./layouts/heads/dynamic-heads/animation-head.html"
     ]

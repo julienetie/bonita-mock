@@ -1,1 +1,11 @@
-{}
+{
+    "/* comment 1 */": "document values are either strings or RegExp. Strings are file paths to include for injecting maps. RegExp values will return all matching files",
+    "documents":[
+       "./layouts/index.html",
+       "./layouts/heads/dynamic-heads/animation-head.html",
+       "./layouts/footers/checkout-footer.html"
+    ],
+    "/* comment 2 */": "document root sets the base path for all documents, default is root",
+    "documents-root": "./src",
+    "/* comment 3 */": "import-maps-path defaults to the root unless specified "
+ }
